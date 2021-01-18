@@ -1,0 +1,63 @@
+Intro 
+	Histo
+	Inconvénients de java
+	Compatibilité avec Java 
+Bases 
+	val-var
+	string template
+	inférence de type 
+
+    for - while do - ranges - when (pour le switch case)
+
+Null-safety
+	?:
+	!!
+
+POO
+    classes et fonctions closed par défaut
+    constructeur primaire
+	enum
+    data class
+	sealed class
+    object pour les singleton
+	companion object
+	Alias de type
+    Extensions de fonctions
+    Delegates?
+
+
+Fonctions
+    Paramètres nommés
+	Valeur par défaut pour les paramètres
+	Déclaration de fonction
+	Fonction en paramètre et
+	let, apply, also, run, use, with?
+
+	it en paramètre par défaut de lambda
+	lambda en corps de fonction
+    référence de fonction ?
+
+Présentation de l'API
+    Pour les Tests =>  TODO, Phrases en nom de fonctions
+	numérique et primitifs
+	Any, Nothing et Unit?
+	Unit vs Void vs Nothing?
+
+    Collections
+        Présentation de l'api
+        Collections Mutables
+        Sequence?
+        Tuple?
+    javaClass vs class.java?
+Mots clés avancés?
+    Inline noinline crossinline reified
+    lateinit
+    tailrec
+	operator fun
+
+Générique -> Un très gros chapitre
+Coroutines -> Un très gros chapitre
+
+plugin maven
+Ce qui existe en Java et pas en Kotlin
+
