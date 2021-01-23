@@ -31,7 +31,6 @@ Fonctions
 	Valeur par défaut pour les paramètres
 	Déclaration de fonction
 	Fonction en paramètre et
-	let, apply, also, run, use, with?
 
 	it en paramètre par défaut de lambda
 	lambda en corps de fonction
@@ -49,6 +48,7 @@ Présentation de l'API
         Sequence?
         Tuple?
     javaClass vs class.java?
+	let, apply, also, run, use, with?
 Mots clés avancés?
     Inline noinline crossinline reified
     lateinit

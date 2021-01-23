@@ -18,7 +18,7 @@ interface Movie {
     fun describe(): String
 }
 
-open class SimpleMovie(override val title: String, override val rank: Int) : Movie {
+class SimpleMovie(override val title: String, override val rank: Int) : Movie {
     override fun describe(): String {
         return "Just another movie"
     }

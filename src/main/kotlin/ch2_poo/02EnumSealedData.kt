@@ -6,13 +6,15 @@ enum class MovieType {
 }
 
 // Limited number of children classes
-sealed class StarWars(override val title: String) : SimpleMovie(title, 5) {
+sealed class StarWars(override val title: String) : Movie {
+    override val rank = 5
+
     override fun describe(): String {
         return "In a galaxy far, far away"
     }
 }
 
-class ANewHope(override val title: String, override val rank: Int) : StarWars("A New Hope")
+class ANewHope : StarWars("A New Hope")
 class TheEmpireStrikesBack : StarWars("The Empire Strikes Back")
 class TheReturnOfTheJedi : StarWars("The Return Of The Jedi")
 

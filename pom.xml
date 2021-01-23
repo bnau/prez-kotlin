@@ -66,5 +66,15 @@
             <artifactId>kotlinx-coroutines-core</artifactId>
             <version>1.4.1</version>
         </dependency>
+        <dependency>
+            <groupId>org.jetbrains.kotlin</groupId>
+            <artifactId>kotlin-test</artifactId>
+            <version>1.4.21-2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jetbrains.kotlin</groupId>
+            <artifactId>kotlin-test-junit5</artifactId>
+            <version>1.4.21-2</version>
+        </dependency>
     </dependencies>
 </project>
