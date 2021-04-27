@@ -18,6 +18,7 @@ fun main() {
 
     val x = 1
 
+    // Switch case evaluated at runtime
     when (x) {
         0, 1 -> print("x <= 1")
         2 -> print("x == 2")
@@ -27,12 +28,14 @@ fun main() {
         }
     }
 
+    // Switch case based on the type
     when (x) {
         is Int -> print("x is an Integer")
         !is Int -> print("x is not an Integer")
     }
 
 
+    // Smart for loop
     for (i in 1..3) {
         println(i)
     }

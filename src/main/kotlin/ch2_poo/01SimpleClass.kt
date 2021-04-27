@@ -1,16 +1,5 @@
 package ch2_poo
 
-fun main() {
-    val simpleMovie = SimpleMovie("Avatar", 3)
-    println("${simpleMovie.title}: ${simpleMovie.describe()}")
-
-//
-//    val bigNanard = BigNanard("Sharknado")
-//
-//    println("${bigNanard.title}: ${bigNanard.describe()}")
-//    bigNanard.rank = 3
-}
-
 interface Movie {
     val title: String
     val rank: Int
@@ -19,6 +8,8 @@ interface Movie {
 }
 
 class SimpleMovie(override val title: String, override val rank: Int) : Movie {
+
+    // Public by default
     override fun describe(): String {
         return "Just another movie"
     }
@@ -36,4 +27,15 @@ class SimpleMovie(override val title: String, override val rank: Int) : Movie {
 //    }
 //}
 //
+
+fun main() {
+    val simpleMovie = SimpleMovie("Avatar", 3)
+    println("${simpleMovie.title}: ${simpleMovie.describe()}")
+
+//
+//    val bigNanard = BigNanard("Sharknado")
+//
+//    println("${bigNanard.title}: ${bigNanard.describe()}")
+//    bigNanard.rank = 3
+}
 

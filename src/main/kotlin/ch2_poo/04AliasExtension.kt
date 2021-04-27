@@ -11,6 +11,8 @@ fun main() {
             listOf(ANewHope(), TheEmpireStrikesBack(), TheReturnOfTheJedi()))
 
     toWatchList.series.forEach({ serie -> serie.watch() })
+
+    // The Movie class doesn't have a watch method
     toWatchList.movies.forEach({ movie -> movie.watch() })
 }
 

@@ -14,6 +14,9 @@ sealed class StarWars(override val title: String) : Movie {
     }
 }
 
+class ThePhantomMenace : StarWars("The Phantom Menace")
+class AttackOfTheClones : StarWars("Attack Of The Clones")
+class RevengeOfTheSith : StarWars("Revenge Of The Sith")
 class ANewHope : StarWars("A New Hope")
 class TheEmpireStrikesBack : StarWars("The Empire Strikes Back")
 class TheReturnOfTheJedi : StarWars("The Return Of The Jedi")

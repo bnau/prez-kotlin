@@ -2,21 +2,30 @@ package ch4_api
 
 fun main() {
 
+    // Returns [2, 4, 6]
     (1..3).map { it * 2 }
 
-    var list = listOf(1, 2, 3).map { it * 2 }
-            .filter { it < 5 }
-    // Copy the list and adds 10
-    list += 10
-
-    val mutList = mutableListOf(1, 2, 3).map { it * 2 }
+    // Immutable list
+    val list = listOf(1, 2, 3).map { it * 2 }
             .filter { it < 5 }
 
-    mutList.plus(10)
+    // Mutable list
+    var mutList = mutableListOf(1, 2, 3).map { it * 2 }
+            .filter { it < 5 }
+
+    // Adds 10 to the list
+    mutList += 10
+    // Concatenates lists
+    mutList += list
 
     // A sequence is like a Java Stream
-    sequenceOf(1, 2, 3).map { it * 2 }
+    list.asSequence().map { it * 2 }
             .filter { it < 5 }
             .toList()
+
+
+    // Immutable map...
+    mapOf(Pair("KEY1", 1),
+            Pair("KEY2", 2))
 }
 
