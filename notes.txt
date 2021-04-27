@@ -53,11 +53,13 @@ Mots clés avancés?
     Inline noinline crossinline reified
     lateinit
     tailrec
+    infix
 	operator fun
 
 Générique -> Un très gros chapitre
 Coroutines -> Un très gros chapitre
 
+Quelques comparaisons 
 plugin maven
 Ce qui existe en Java et pas en Kotlin
 
