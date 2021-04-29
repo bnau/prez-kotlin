@@ -3,18 +3,12 @@ package ch1_basis
 import java.lang.Integer.parseInt
 
 fun main() {
-    val simpleString: String
-    if (true) {
-        simpleString = "blabla"
-    } else {
-        simpleString = "bloblo"
-    }
-
-//    val simpleString =
-//            if (true)
-//                "blabla"
-//            else
-//                "bloblo"
+    // Syntax for ternary
+    val simpleString =
+            if (true)
+                "blabla"
+            else
+                "bloblo"
 
     val x = 1
 
